@@ -1,0 +1,30 @@
+.button{
+  background-image: url("../../../public/close.svg");
+  width: 40px;
+  height: 40px;
+  background-size: 40px 40px;
+  background-position: center center;
+  transform: rotate(45deg);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.item{
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.doneItem{
+  text-decoration: line-through;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.checkbox{
+  transform: scale(2)
+}
